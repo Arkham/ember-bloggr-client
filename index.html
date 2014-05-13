@@ -59,7 +59,7 @@
               {{#each}}
               <tr><td>
                 {{#link-to 'post' this}}
-                  {{title}} <small class="muted">by {{author.name}}</small>
+                  {{{title}}} <small class="muted">by {{author.name}}</small>
                 {{/link-to}}
               </td></tr>
               {{/each}}
@@ -81,13 +81,13 @@
       <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
     {{/if}}
 
-    <h1>{{title}}</h1>
+    <h1>{{{title}}}</h1>
     <h2>by {{author.name}} <small class='muted'>({{format-date date}})</small></h2>
 
     <hr>
 
     <div class="intro">
-      {{excerpt}}
+      {{{excerpt}}}
     </div>
 
     <div class="below-the-fold">
