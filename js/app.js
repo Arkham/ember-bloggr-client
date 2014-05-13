@@ -10,6 +10,10 @@ App.Router.map(function() {
 App.PostsRoute = Ember.Route.extend({
   model: function() {
     return posts;
+  },
+
+  afterModel: function(posts) {
+    this.transitionTo('post', posts[0]);
   }
 });
 
