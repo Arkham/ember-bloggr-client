@@ -37,7 +37,7 @@
 
   <script type="text/x-handlebars" id="index">
     <div class="jumbotron">
-      <h1>This is Bloggr.</h1>
+      <h1>This is <span class="text-primary">Bloggr</span>.</h1>
     </div>
   </script>
 
@@ -76,9 +76,9 @@
   <script type="text/x-handlebars" id="post">
     {{#if isEditing}}
       {{partial 'post/edit'}}
-      <button {{action 'doneEditing'}}>Done</button>
+      <button class="btn btn-primary" {{action 'doneEditing'}}>Done</button>
     {{else}}
-      <button {{action 'edit'}}>Edit</button>
+      <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
     {{/if}}
 
     <h1>{{title}}</h1>
@@ -96,9 +96,9 @@
   </script>
 
   <script type="text/x-handlebars" id="post/_edit">
-    <p>{{input type="text" value=title}}</p>
-    <p>{{input type="text" value=excerpt}}</p>
-    <p>{{textarea value=body}}</p>
+    <p>{{input type="text" class="form-control" value=title}}</p>
+    <p>{{input type="text" class="form-control" value=excerpt}}</p>
+    <p>{{textarea class="form-control" rows=10 value=body}}</p>
   </script>
 
   <script src="js/libs/jquery-1.10.2.js"></script>
