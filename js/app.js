@@ -42,13 +42,13 @@ var posts = [{
   title: 'Rails is Omakase',
   author: { name: "dhh" },
   date: new Date('12-12-2012'),
-  excerpt: 'Lorem ipsum',
-  body: 'Lorem ipsum'
+  excerpt: 'Omakase Lorem ipsum',
+  body: 'Omakase Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
 }, {
   id: '2',
-  title: 'I want parley',
+  title: 'I want Parley',
   author: { name: "dhh" },
-  date: new Date('12-12-2012'),
-  excerpt: 'Lorem ipsum',
-  body: 'Lorem ipsum'
+  date: new Date('03-03-2014'),
+  excerpt: 'Parley Lorem ipsum',
+  body: 'Parley Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
 }];
